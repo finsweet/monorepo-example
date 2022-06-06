@@ -1,0 +1,5 @@
+{
+  "name": "@finsweet/tests",
+  "version": "1.0.0",
+  "main": "playwright.config.ts"
+}

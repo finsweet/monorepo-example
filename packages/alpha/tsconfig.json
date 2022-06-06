@@ -1,0 +1,9 @@
+{
+  "extends": "@finsweet/tsconfig",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "$utils/*": ["src/utils/*"]
+    }
+  }
+}

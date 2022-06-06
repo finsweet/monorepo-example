@@ -1,5 +1,6 @@
 {
   "name": "@finsweet/developer-starter",
+  "private": true,
   "version": "1.0.0",
   "description": "Developer starter template for Finsweet projects.",
   "homepage": "https://github.com/finsweet/developer-starter#readme",
@@ -23,20 +24,20 @@
     "dist"
   ],
   "scripts": {
-    "dev": "cross-env NODE_ENV=development node ./bin/build.js",
-    "build": "cross-env NODE_ENV=production node ./bin/build.js",
-    "lint": "eslint --ignore-path .gitignore ./src && prettier --check ./src",
-    "check": "tsc --noEmit",
-    "format": "prettier --write ./src",
-    "test": "pnpm playwright test",
-    "test:headed": "pnpm playwright test --headed",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "check": "pnpm -r check",
+    "format": "pnpm -r format",
+    "test": "pnpm -r test --workspace-concurrency=1",
+    "test:headed": "pnpm -r test:headed --headed --workspace-concurrency=1",
     "release": "changeset publish",
-    "update": "pnpm update -i -L"
+    "update": "pnpm update -i -L -r"
   },
   "devDependencies": {
     "@changesets/changelog-git": "^0.1.11",
     "@changesets/cli": "^2.22.0",
     "@finsweet/eslint-config": "^1.1.5",
+    "@finsweet/tsconfig": "^1.0.2",
     "@playwright/test": "^1.22.2",
     "@trivago/prettier-plugin-sort-imports": "^3.2.0",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
@@ -48,8 +49,5 @@
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.6.2",
     "typescript": "^4.7.2"
-  },
-  "dependencies": {
-    "@finsweet/ts-utils": "^0.33.1"
   }
 }
