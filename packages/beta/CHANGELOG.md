@@ -1,5 +1,13 @@
 # @finsweet/beta
 
+## 1.0.3
+
+### Patch Changes
+
+- debe0b2: Fixed typescript issues
+- Updated dependencies [debe0b2]
+  - @finsweet/alpha@1.0.1
+
 ## 1.0.2
 
 ### Patch Changes
