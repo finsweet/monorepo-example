@@ -38,23 +38,23 @@ importers:
 
   packages/alpha:
     specifiers:
-      '@finsweet/tests': workspace:*
+      '@finsweet/playwright-config': workspace:*
       '@finsweet/ts-utils': ^0.33.1
     dependencies:
       '@finsweet/ts-utils': 0.33.1
     devDependencies:
-      '@finsweet/tests': link:../tests
+      '@finsweet/playwright-config': link:../playwright-config
 
   packages/beta:
     specifiers:
       '@finsweet/alpha': workspace:*
-      '@finsweet/tests': workspace:*
+      '@finsweet/playwright-config': workspace:*
     dependencies:
       '@finsweet/alpha': link:../alpha
     devDependencies:
-      '@finsweet/tests': link:../tests
+      '@finsweet/playwright-config': link:../playwright-config
 
-  packages/tests:
+  packages/playwright-config:
     specifiers: {}
 
 packages:

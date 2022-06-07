@@ -33,7 +33,7 @@
     "update": "pnpm update -i -L"
   },
   "devDependencies": {
-    "@finsweet/tests": "workspace:*"
+    "@finsweet/playwright-config": "workspace:*"
   },
   "dependencies": {
     "@finsweet/alpha": "workspace:*"
