@@ -1,3 +1,3 @@
-import config from '@finsweet/tests';
+import config from '@finsweet/playwright-config';
 
 export default config;
