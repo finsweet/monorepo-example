@@ -1,5 +1,13 @@
 # @fake-client/beta
 
+## 1.0.5
+
+### Patch Changes
+
+- 5b2b05c: Test deploy to npm
+- Updated dependencies [5b2b05c]
+  - @fake-client/alpha@1.0.3
+
 ## 1.0.4
 
 ### Patch Changes
