@@ -1,5 +1,11 @@
 # @fake-client/alpha
 
+## 1.0.4
+
+### Patch Changes
+
+- a4c4714: Added npmrc and modified TEST_VALUE
+
 ## 1.0.3
 
 ### Patch Changes

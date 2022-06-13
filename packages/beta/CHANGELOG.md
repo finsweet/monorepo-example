@@ -1,5 +1,12 @@
 # @fake-client/beta
 
+## 1.0.7
+
+### Patch Changes
+
+- Updated dependencies [a4c4714]
+  - @fake-client/alpha@1.0.4
+
 ## 1.0.6
 
 ### Patch Changes
