@@ -1,4 +1,4 @@
-# @finsweet/playwright-config
+# @fake-client/playwright-config
 
 ## 1.0.1
 

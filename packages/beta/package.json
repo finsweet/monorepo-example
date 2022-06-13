@@ -33,7 +33,7 @@
     "update": "pnpm update -i -L"
   },
   "devDependencies": {
-    "@finsweet/playwright-config": "workspace:*"
+    "@fake-client/playwright-config": "workspace:*"
   },
   "dependencies": {
     "@fake-client/alpha": "workspace:*"

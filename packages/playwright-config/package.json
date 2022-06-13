@@ -1,5 +1,6 @@
 {
-  "name": "@finsweet/playwright-config",
+  "name": "@fake-client/playwright-config",
   "version": "1.0.1",
-  "main": "playwright.config.ts"
+  "main": "playwright.config.ts",
+  "private": true
 }

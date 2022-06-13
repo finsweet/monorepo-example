@@ -38,21 +38,21 @@ importers:
 
   packages/alpha:
     specifiers:
-      '@finsweet/playwright-config': workspace:*
+      '@fake-client/playwright-config': workspace:*
       '@finsweet/ts-utils': ^0.33.1
     dependencies:
       '@finsweet/ts-utils': 0.33.1
     devDependencies:
-      '@finsweet/playwright-config': link:../playwright-config
+      '@fake-client/playwright-config': link:../playwright-config
 
   packages/beta:
     specifiers:
       '@fake-client/alpha': workspace:*
-      '@finsweet/playwright-config': workspace:*
+      '@fake-client/playwright-config': workspace:*
     dependencies:
       '@fake-client/alpha': link:../alpha
     devDependencies:
-      '@finsweet/playwright-config': link:../playwright-config
+      '@fake-client/playwright-config': link:../playwright-config
 
   packages/playwright-config:
     specifiers: {}
