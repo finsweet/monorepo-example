@@ -6,4 +6,4 @@ window.Webflow.push(() => {
   greetUser(name);
 });
 
-export const TEST_VALUE = 'hey!';
+export const TEST_VALUE = 'Hey!';
