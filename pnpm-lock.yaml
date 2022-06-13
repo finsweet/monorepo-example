@@ -47,10 +47,10 @@ importers:
 
   packages/beta:
     specifiers:
-      '@finsweet/alpha': workspace:*
+      '@fake-client/alpha': workspace:*
       '@finsweet/playwright-config': workspace:*
     dependencies:
-      '@finsweet/alpha': link:../alpha
+      '@fake-client/alpha': link:../alpha
     devDependencies:
       '@finsweet/playwright-config': link:../playwright-config
 

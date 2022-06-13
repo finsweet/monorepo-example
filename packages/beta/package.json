@@ -1,8 +1,8 @@
 {
-  "name": "@finsweet/beta",
+  "name": "@fake-client/beta",
   "version": "1.0.4",
   "description": "Developer starter template for Finsweet projects.",
-  "homepage": "https://github.com/finsweet/beta#readme",
+  "homepage": "https://github.com/fake-client/beta#readme",
   "license": "ISC",
   "keywords": [],
   "author": {
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finsweet/beta.git"
+    "url": "git+https://github.com/fake-client/beta.git"
   },
   "bugs": {
-    "url": "https://github.com/finsweet/beta/issues"
+    "url": "https://github.com/fake-client/beta/issues"
   },
   "type": "module",
   "main": "src/index.ts",
@@ -36,6 +36,6 @@
     "@finsweet/playwright-config": "workspace:*"
   },
   "dependencies": {
-    "@finsweet/alpha": "workspace:*"
+    "@fake-client/alpha": "workspace:*"
   }
 }

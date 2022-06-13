@@ -1,4 +1,4 @@
-# @finsweet/alpha
+# @fake-client/alpha
 
 ## 1.0.2
 
