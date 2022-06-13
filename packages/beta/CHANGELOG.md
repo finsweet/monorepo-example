@@ -1,5 +1,11 @@
 # @fake-client/beta
 
+## 1.0.6
+
+### Patch Changes
+
+- f53e1fa: Removed console log
+
 ## 1.0.5
 
 ### Patch Changes
